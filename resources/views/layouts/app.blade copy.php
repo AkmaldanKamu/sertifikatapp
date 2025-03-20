@@ -6,6 +6,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('maser/assets/img/apple-icon.png') }}">
     <link rel="icon" type="image/png" href="{{ asset('maser/assets/img/favicon.ico') }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Certifikat App - Admin Dashboard</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <!-- Fonts and icons -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
@@ -17,8 +18,6 @@
         <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
