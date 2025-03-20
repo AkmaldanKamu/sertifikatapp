@@ -12,10 +12,10 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         // Cek apakah admin sudah ada sebelum menambahkannya
-        if (!User::where('email', 'admin@example.com')->exists()) {
+        if (!User::where('email', operator: 'admin@gmail.com')->exists()) {
             User::create([
                 'name' => 'Admin',
-                'email' => 'admin@example.com',
+                'email' => 'admin@gmail.com',
                 'password' => Hash::make('password'),
             ]);
         }
